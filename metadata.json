@@ -1,0 +1,5 @@
+{
+  "name": "Warranty Register & Claim System",
+  "description": "A comprehensive application for users to register products for warranty and for admins to manage these applications. Features include product registration, status tracking, warranty certificate generation, and an admin dashboard for approvals and rejections.",
+  "requestFramePermissions": []
+}

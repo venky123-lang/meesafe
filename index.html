@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misafe - Warranty Register & Claim System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes scroll {
+        to {
+          transform: translate(calc(-50% - 0.5rem));
+        }
+      }
+      .animate-infinite-scroll {
+        animation: scroll 40s linear infinite;
+      }
+      @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+          animation: fade-in-up 0.8s ease-out forwards;
+      }
+      .animation-delay-300 { animation-delay: 300ms; }
+      .animation-delay-600 { animation-delay: 600ms; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
